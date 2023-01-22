@@ -2,6 +2,7 @@
 int sum = 0;
 int currentNumber = 0;
 bool ifSpecial = false;
+
 for (int i = 1; i <= input; i++)
 {
     currentNumber = i;
