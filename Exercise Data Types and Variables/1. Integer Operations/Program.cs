@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int one = int.Parse(Console.ReadLine());
+int two = int.Parse(Console.ReadLine());
+int three = int.Parse(Console.ReadLine());  
+int four = int.Parse(Console.ReadLine());
+
+int result = (((one + two) / three) * four);
+Console.WriteLine(result);
