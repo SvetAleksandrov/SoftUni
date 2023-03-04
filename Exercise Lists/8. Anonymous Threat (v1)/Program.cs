@@ -7,16 +7,14 @@ namespace _8._Anonymous_Threat__v1_
         static void Main(string[] args)
         {
             List<string> words = Console.ReadLine()
-                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                .ToList();
+                   .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                   .ToList();
 
             string command;
-
-            while ((command = Console.ReadLine()) != "end")
+            while ((command = Console.ReadLine()) != "3:1")
             {
                 string[] cmdArgs = command
                     .Split(' ', StringSplitOptions.RemoveEmptyEntries);
-
                 string cmdType = cmdArgs[0];
 
                 if (cmdType == "merge")
@@ -24,30 +22,33 @@ namespace _8._Anonymous_Threat__v1_
                     int startIndex = int.Parse(cmdArgs[1]);
                     int endIndex = int.Parse(cmdArgs[2]);
 
-                    FixInvalidIndex(words, ref startIndex, ref endIndex);
-                    MergeText(words, startIndex, endIndex);
+                    FixInvalidIndexes(words, ref startIndex, ref endIndex);
+                    MergeWords(words, startIndex, endIndex);
                 }
                 else if (cmdType == "divide")
                 {
                     int index = int.Parse(cmdArgs[1]);
-                    int partisions = int.Parse(cmdArgs[2]);
+                    int partitions = int.Parse(cmdArgs[2]);
 
+                    //abcde -> ab, bc, e (Wrong, we want the last one to be the longest)
+                    //abcde -> a, b, cde 5 : 3 = 1
+                    //abcdef -> ab, cd, ef
                     string word = words[index];
-
-                    List<string> partitionList = DivideWord(word, partisions);
+                    List<string> partitionsList = DivideWord(word, partitions);
 
                     words.RemoveAt(index);
-                    words.InsertRange(index, partitionList);
-
+                    words.InsertRange(index, partitionsList);
                 }
             }
-            Console.WriteLine(String.Join(" ", words));
 
+            Console.WriteLine(String.Join(" ", words));
         }
-        static void FixInvalidIndex(List<string> words, ref int startIndex, ref int endIndex)
+
+        static void FixInvalidIndexes(List<string> words, ref int startIndex, ref int endIndex)
         {
             if (startIndex < 0)
             {
+                //First possible
                 startIndex = 0;
             }
 
@@ -63,47 +64,49 @@ namespace _8._Anonymous_Threat__v1_
 
             if (endIndex >= words.Count)
             {
+                //Last possible
                 endIndex = words.Count - 1;
             }
         }
-        static void MergeText(List<string> words, int startIndex, int endIndex)
+
+        static void MergeWords(List<string> words, int startIndex, int endIndex)
         {
             string mergedText = string.Empty;
-
             for (int i = startIndex; i <= endIndex; i++)
             {
-                string currentWord = words[startIndex];
-                mergedText += currentWord;
+                string currWord = words[startIndex];
+                mergedText += currWord;
                 words.RemoveAt(startIndex);
             }
+
             words.Insert(startIndex, mergedText);
         }
 
         static List<string> DivideWord(string word, int partitions)
         {
+            int substringsLength = word.Length / partitions;
+            int lastSubstringLength = substringsLength + word.Length % partitions;
+            //int lastSubstringLength = word.Length - ((partitions - 1) * substringsLength);
 
-            int substrincsLenght = word.Length / partitions;
-            int lastSubstringLength = substrincsLenght + word.Length % partitions;
-
-            List<string> partisionsList = new List<string>();
-
+            List<string> partitionsList = new List<string>();
+            //All without the last one
             for (int i = 0; i < partitions; i++)
             {
-                int desireLenght = substrincsLenght;
+                int desiredLength = substringsLength;
                 if (i == partitions - 1)
                 {
-                    desireLenght = lastSubstringLength;
+                    desiredLength = lastSubstringLength;
                 }
 
-
-                char[] newPartionArr = word
-                    .Skip(i * substrincsLenght)
-                    .Take(desireLenght)
+                char[] newPartitionArr = word
+                    .Skip(i * substringsLength)
+                    .Take(desiredLength)
                     .ToArray();
-                string newPartion = string.Join("", newPartionArr);
-                partisionsList.Add(newPartion);
+                string newPartition = String.Join("", newPartitionArr);
+                partitionsList.Add(newPartition);
             }
-            return partisionsList;
+
         }
     }
+}
 }
