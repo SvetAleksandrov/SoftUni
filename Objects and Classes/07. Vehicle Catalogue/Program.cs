@@ -7,7 +7,6 @@
             string command;
             List<Car> cars = new List<Car>();
             List<Truck> trucks = new List<Truck>();
-            List<Catalog> catalogs = new List<Catalog>();
 
             while ((command = Console.ReadLine()) != "end")
             {
@@ -85,7 +84,7 @@
                 Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp");
             }
 
-            Console.WriteLine("Truck:");
+            Console.WriteLine("Trucks:");
             foreach (Truck truck in Trucks.OrderBy(x => x.Brand))
             {
                 Console.WriteLine($"{truck.Brand}: {truck.Model} - {truck.Weight}kg");

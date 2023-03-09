@@ -3,19 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Randomize Words", "1. Randomize Words\01. Randomize Words.csproj", "{97100E1D-00CE-4ED2-9069-768B4DF736FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001. Randomize Words", "1. Randomize Words\001. Randomize Words.csproj", "{97100E1D-00CE-4ED2-9069-768B4DF736FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Big Factorial", "02. Big Factorial\02. Big Factorial.csproj", "{458B66B4-33CF-4F9E-B75A-B8C1BB928603}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002. Big Factorial", "02. Big Factorial\002. Big Factorial.csproj", "{458B66B4-33CF-4F9E-B75A-B8C1BB928603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Songs", "03. Songs\03. Songs.csproj", "{20B4385D-6D79-4882-81DC-2A8271A00C9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003. Songs", "03. Songs\003. Songs.csproj", "{20B4385D-6D79-4882-81DC-2A8271A00C9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Students", "04. Students\04. Students.csproj", "{7FF961BB-AF01-460E-A7EA-9F6ED51492EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004. Students", "04. Students\004. Students.csproj", "{7FF961BB-AF01-460E-A7EA-9F6ED51492EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Students 2.0", "05. Students 2.0\05. Students 2.0.csproj", "{63296FF3-A6F4-48CD-8DB1-88E55111F756}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005. Students 2.0", "05. Students 2.0\005. Students 2.0.csproj", "{63296FF3-A6F4-48CD-8DB1-88E55111F756}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Store Boxes", "06. Store Boxes\06. Store Boxes.csproj", "{0B2D5969-1FBD-42A7-9CA5-825F5CD9173F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006. Store Boxes", "06. Store Boxes\006. Store Boxes.csproj", "{0B2D5969-1FBD-42A7-9CA5-825F5CD9173F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Vehicle Catalogue", "07. Vehicle Catalogue\07. Vehicle Catalogue.csproj", "{AE687A44-DE59-4417-8C97-D9909118982B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007. Vehicle Catalogue", "07. Vehicle Catalogue\007. Vehicle Catalogue.csproj", "{AE687A44-DE59-4417-8C97-D9909118982B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Company Roster", "01. Company Roster\01. Company Roster.csproj", "{D32F536C-D95A-4AFB-B941-A4D634EA8102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Articles", "2. Articles\02. Articles.csproj", "{D6B60539-2C44-465A-93DF-0A491208094C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Articles 2.0", "03. Articles 2.0\03. Articles 2.0.csproj", "{410F9B03-98EB-48B8-8365-36C85A9820DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Studentss", "04. Studentss\04. Studentss.csproj", "{0CCCD1FC-C67A-460C-BFFA-91C9D3BEE6DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Teamwork Projects", "05. Teamwork Projects\05. Teamwork Projects.csproj", "{E929575D-A529-4CFA-867A-6915D3C7E20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Vehicle Catalogue", "06. Vehicle Catalogue\06. Vehicle Catalogue.csproj", "{6A95274C-5984-414B-A683-B2EEDAE123D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +63,30 @@ Global
 		{AE687A44-DE59-4417-8C97-D9909118982B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE687A44-DE59-4417-8C97-D9909118982B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE687A44-DE59-4417-8C97-D9909118982B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32F536C-D95A-4AFB-B941-A4D634EA8102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32F536C-D95A-4AFB-B941-A4D634EA8102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32F536C-D95A-4AFB-B941-A4D634EA8102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32F536C-D95A-4AFB-B941-A4D634EA8102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B60539-2C44-465A-93DF-0A491208094C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B60539-2C44-465A-93DF-0A491208094C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B60539-2C44-465A-93DF-0A491208094C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B60539-2C44-465A-93DF-0A491208094C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410F9B03-98EB-48B8-8365-36C85A9820DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410F9B03-98EB-48B8-8365-36C85A9820DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410F9B03-98EB-48B8-8365-36C85A9820DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410F9B03-98EB-48B8-8365-36C85A9820DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCCD1FC-C67A-460C-BFFA-91C9D3BEE6DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCCD1FC-C67A-460C-BFFA-91C9D3BEE6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCCD1FC-C67A-460C-BFFA-91C9D3BEE6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCCD1FC-C67A-460C-BFFA-91C9D3BEE6DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E929575D-A529-4CFA-867A-6915D3C7E20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E929575D-A529-4CFA-867A-6915D3C7E20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E929575D-A529-4CFA-867A-6915D3C7E20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E929575D-A529-4CFA-867A-6915D3C7E20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A95274C-5984-414B-A683-B2EEDAE123D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A95274C-5984-414B-A683-B2EEDAE123D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A95274C-5984-414B-A683-B2EEDAE123D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A95274C-5984-414B-A683-B2EEDAE123D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
