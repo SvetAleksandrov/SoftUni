@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 1 – The Imitation Game", "Problem 1 – The Imitation Game\Problem 1 – The Imitation Game.csproj", "{52472D25-9F44-45D2-B43A-39E117135BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 2 – Destination Mapper", "Problem 2 – Destination Mapper\Problem 2 – Destination Mapper.csproj", "{FBF28F81-84DE-4473-884E-D1BF0966E6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3 – Need for Speed III", "Problem 3 – Need for Speed III\Problem 3 – Need for Speed III.csproj", "{2CDB2481-BBC8-479B-80AC-00E8C17C7598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Heroes of Code and Logic VII", "03. Heroes of Code and Logic VII\03. Heroes of Code and Logic VII.csproj", "{0A0F508F-65AC-4493-AB1B-A141641B1D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Activation Keys", "01. Activation Keys\01. Activation Keys.csproj", "{131838B0-FF54-447E-A480-9B2D8E090B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Password Reset", "01. Password Reset\01. Password Reset.csproj", "{A69EDEB9-CDF7-49AE-9D5B-2BF62234DE26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52472D25-9F44-45D2-B43A-39E117135BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52472D25-9F44-45D2-B43A-39E117135BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52472D25-9F44-45D2-B43A-39E117135BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52472D25-9F44-45D2-B43A-39E117135BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF28F81-84DE-4473-884E-D1BF0966E6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF28F81-84DE-4473-884E-D1BF0966E6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF28F81-84DE-4473-884E-D1BF0966E6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF28F81-84DE-4473-884E-D1BF0966E6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDB2481-BBC8-479B-80AC-00E8C17C7598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDB2481-BBC8-479B-80AC-00E8C17C7598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDB2481-BBC8-479B-80AC-00E8C17C7598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDB2481-BBC8-479B-80AC-00E8C17C7598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0F508F-65AC-4493-AB1B-A141641B1D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0F508F-65AC-4493-AB1B-A141641B1D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0F508F-65AC-4493-AB1B-A141641B1D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0F508F-65AC-4493-AB1B-A141641B1D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131838B0-FF54-447E-A480-9B2D8E090B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131838B0-FF54-447E-A480-9B2D8E090B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131838B0-FF54-447E-A480-9B2D8E090B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131838B0-FF54-447E-A480-9B2D8E090B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69EDEB9-CDF7-49AE-9D5B-2BF62234DE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69EDEB9-CDF7-49AE-9D5B-2BF62234DE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69EDEB9-CDF7-49AE-9D5B-2BF62234DE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69EDEB9-CDF7-49AE-9D5B-2BF62234DE26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC76E65D-B887-4EEC-91CE-EF2E0237AEFC}
+	EndGlobalSection
+EndGlobal

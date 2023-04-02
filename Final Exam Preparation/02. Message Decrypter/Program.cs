@@ -1,12 +1,10 @@
-﻿namespace _4._Star_Enigma__not_included_in_final_score_
+﻿namespace _02._Message_Decrypter
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-
-            
         }
     }
 }
